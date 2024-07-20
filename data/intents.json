@@ -1,0 +1,49 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["hello", "hi", "hey", "wake up", "jarvis"],
+            "responses": ["Hello, sir!", "How are you today, sir?", "Always at your service, sir.", "Hello!", "Greetings! I am your assistant, Jarvis."]
+        },
+        {
+            "tag": "bye",
+            "patterns": ["bye", "goodbye", "see you later", "sleep", "exit"],
+            "responses": ["Goodbye.", "I'm signing off.", "Farewell, sir.", "Until next time!", "It'll be a pleasure to assist you again. Goodbye.", "See you later!"]
+        },
+        {
+            "tag": "health",
+            "patterns": ["how are you", "how are you doing", "are you fine?", "are you good?"],
+            "responses": ["I'm doing well, thank you.", "Feeling great!", "All systems are functioning perfectly.", "Like you, I'm doing fine.", "I'm always in good shape."]
+        },
+        {
+            "tag": "identity",
+            "patterns": ["your name", "what is your name", "who are you", "what are you"],
+            "responses": ["I am Jarvis.", "My name is jarvis.", "I am an AI Assistant.", "You can call me Jarvis.", "I'm your reliable assistant, Jarvis."]
+        },
+        {
+            "tag": "time",
+            "patterns": ["what is the time", "time", "samay", "what's the time now"],
+            "responses": ["The current time is {time}."] 
+        },
+        {
+            "tag": "date",
+            "patterns": ["what is the date", "date", "tareek", "what's today's date"],
+            "responses": ["Today's date is {date}."]  
+        },
+        {
+            "tag": "day",
+            "patterns": ["what is the day", "day", "din", "what's the day today", "today"],
+            "responses": ["Today is {day}."]  
+        },
+        {
+            "tag": "wikipedia",
+            "patterns": ["who is", "about", "what is", "wikipedia", "kaha", "where was"],
+            "responses": ["Searching Wikipedia for {query}."] 
+        },
+        {
+            "tag": "google",
+            "patterns": ["search on Google", "google", "search", "define", "explain", "batao", "where is"],
+            "responses": ["Initiating a Google search for {query}."]  
+        }
+    ]
+}
