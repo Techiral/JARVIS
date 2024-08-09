@@ -3,7 +3,7 @@ import json
 
 
 #provide API key here
-key='AIzaSyBqBTNtszlC2sFAg2zphwqlSO5BFnjvtMI'
+key=''
 
 
 def channelid(ans):
